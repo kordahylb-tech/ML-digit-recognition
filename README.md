@@ -67,8 +67,8 @@ For each layer:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/handwritten-digit-recognition.git
-cd handwritten-digit-recognition
+git clone https://github.com/kordahylb-tech/ML-digit-recognition.git
+cd ML-digit-recognition
 ```
 
 2. Install dependencies:
@@ -84,32 +84,6 @@ python main.py
 ```
 
 The script will automatically download the MNIST dataset (~11.5 MB) on first run.
-
-## Setting Up GitHub Repository
-
-If you want to push this project to GitHub:
-
-1. **Install Git** (if not already installed):
-   - Download from: https://git-scm.com/downloads
-
-2. **Initialize Git repository** (in the project directory):
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Neural network from scratch for digit recognition"
-   ```
-
-3. **Create a new repository on GitHub**:
-   - Go to https://github.com/new
-   - Create a new repository (e.g., `handwritten-digit-recognition`)
-   - Don't initialize with README (we already have one)
-
-4. **Connect and push**:
-   ```bash
-   git remote add origin https://github.com/yourusername/handwritten-digit-recognition.git
-   git branch -M main
-   git push -u origin main
-   ```
 
 ## Learning Objectives
 
